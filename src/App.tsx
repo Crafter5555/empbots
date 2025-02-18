@@ -7,7 +7,7 @@ function App() {
       {/* Navigation */}
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
- <img src="EMP-logo.png" alt="EMP Bots Logo" className="h-50 w-auto glow" />
+ <img src="https://res.cloudinary.com/dvxabjzow/image/upload/v1739909640/EMP-logo_qr16ui.png" alt="EMP Bots Logo" className="h-12 w-auto glow" />
         </div>
         <div className="hidden md:flex items-center gap-8">
           <a href="#about" className="hover:text-[#00f2fe] transition-colors">About</a>
@@ -194,7 +194,7 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center gap-2 mb-4 md:mb-0">
-              <img src="src/EMP-logo.png" alt="EMP Bots Logo" className="h-8 w-auto" />
+              <img src="https://res.cloudinary.com/dvxabjzow/image/upload/v1739909640/EMP-logo_qr16ui.png" alt="EMP Bots Logo" className="h-12 w-auto" />
             </div>
             <div className="flex gap-8">
               <a href="#about" className="text-gray-400 hover:text-[#00f2fe] transition-colors">About</a>
