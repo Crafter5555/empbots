@@ -1,4 +1,4 @@
-import { Bot, CircuitBoard, MessageSquare, Users, ChevronRight, Clock, Shield, Sparkles, FileText } from 'lucide-react';
+import { Bot, CircuitBoard, MessageSquare, Users, ChevronRight, Clock, Shield, Sparkles, FileText, NotebookPen, CheckCircle, Gem } from 'lucide-react';
 
 function App() {
   return (
@@ -61,14 +61,14 @@ function App() {
                 <Clock className="w-8 h-8 text-[#00f2fe]" />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-glow">24/7 Support</h3>
-              <p className="text-gray-400">Round-the-clock assistance for your business needs</p>
+              <p className="text-gray-400">Round-the-clock assistance for your needs</p>
             </div>
             <div className="text-center group">
               <div className="w-16 h-16 bg-[#00f2fe]/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#00f2fe]/20 transition-all duration-300 glow">
-                <Shield className="w-8 h-8 text-[#00f2fe]" />
+                <Gem className="w-8 h-8 text-[#00f2fe]" />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-glow">14-Day Free Trial</h3>
-              <p className="text-gray-400">Test our solutions risk-free for two weeks</p>
+              <h3 className="text-xl font-semibold mb-2 text-glow">Service Quality</h3>
+              <p className="text-gray-400">Optimal products for your specific needs</p>
             </div>
             <div className="text-center group">
               <div className="w-16 h-16 bg-[#00f2fe]/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#00f2fe]/20 transition-all duration-300 glow">
@@ -86,17 +86,17 @@ function App() {
             </div>
             <div className="text-center group">
               <div className="w-16 h-16 bg-[#00f2fe]/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#00f2fe]/20 transition-all duration-300 glow">
-                <Shield className="w-8 h-8 text-[#00f2fe]" />
+                <NotebookPen className="w-8 h-8 text-[#00f2fe]" />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-glow">14-Day Free Trial</h3>
-              <p className="text-gray-400">Test our solutions risk-free for two weeks</p>
+              <h3 className="text-xl font-semibold mb-2 text-glow">Free AI Marketing Strategy</h3>
+              <p className="text-gray-400">All plans include a free marketing strategy</p>
             </div>
             <div className="text-center group">
               <div className="w-16 h-16 bg-[#00f2fe]/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-[#00f2fe]/20 transition-all duration-300 glow">
-                <Shield className="w-8 h-8 text-[#00f2fe]" />
+                <CheckCircle className="w-8 h-8 text-[#00f2fe]" />
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-glow">14-Day Free Trial</h3>
-              <p className="text-gray-400">Test our solutions risk-free for two weeks</p>
+              <h3 className="text-xl font-semibold mb-2 text-glow">Satisfaction Guarantee</h3>
+              <p className="text-gray-400">If you don't get results, you don't pay</p>
             </div>
           </div>
         </div>
