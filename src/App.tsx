@@ -50,7 +50,7 @@ function App() {
               Why us?
             </h2>
             <p className="text-gray-300 text-xl mb-12 leading-relaxed">
-              EMP Bots specializes in creating AI agents and systems that help businesses increase customer engagement and revenue while reducing costs. Our services are the easiest gateway to staying ahead during this AI revolution. Our commitment to customer success drives everything we do.
+            EMP Bots specializes in creating AI agents and systems that help businesses increase customer engagement and revenue, while reducing costs and saving time. Our services are the easiest gateway to staying ahead during this AI revolution. Commitment to customer success drives everything we do.
             </p>
               </div>
             </div>
