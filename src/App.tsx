@@ -1,4 +1,4 @@
-import { Bot, CircuitBoard, MessageSquare, Users, ChevronRight, Clock, Shield, Sparkles, FileText, NotebookPen, CheckCircle, Gem } from 'lucide-react';
+import { Bot, CircuitBoard, MessageSquare, Users, ChevronRight, Clock, Shield, Sparkles, FileText, NotebookPen, CheckCircle, Gem, Workflow, PenTool } from 'lucide-react';
 
 function App() {
   return (
@@ -6,7 +6,7 @@ function App() {
       {/* Navigation */}
       <nav className="container mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
- <img src="https://res.cloudinary.com/dvxabjzow/image/upload/v1739909640/EMP-logo_qr16ui.png" alt="EMP Bots Logo" className="h-12 w-auto glow"/>
+          <img src="https://res.cloudinary.com/dvxabjzow/image/upload/v1739909640/EMP-logo_qr16ui.png" alt="EMP Bots Logo" className="h-12 w-auto glow"/>
         </div>
         <div className="hidden md:flex items-center gap-8">
           <a href="#about" className="hover:text-[#00f2fe] transition-colors">About</a>
@@ -50,10 +50,10 @@ function App() {
               Why us?
             </h2>
             <p className="text-gray-300 text-xl mb-12 leading-relaxed">
-            EMP Bots specializes in creating AI agents and systems that help businesses increase customer engagement and revenue, while reducing costs and saving time. Our services are the easiest gateway to staying ahead during this AI revolution. Commitment to customer success drives everything we do.
+              EMP Bots specializes in creating AI agents and systems that help businesses increase customer engagement and revenue, while reducing costs and saving time. Our services are the easiest gateway to staying ahead during this AI revolution. Commitment to customer success drives everything we do.
             </p>
-              </div>
-            </div>
+          </div>
+        </div>
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-12">
             <div className="text-center group">
@@ -106,43 +106,127 @@ function App() {
       <section id="services" className="py-20 bg-gradient-to-b from-black to-gray-900">
         <div className="container mx-auto px-6">
           <h2 className="text-4xl font-bold mb-12 text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-[#00f2fe] text-glow">Our Services</h2>
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
-              <MessageSquare className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
-              <h3 className="text-2xl font-semibold mb-4 text-glow">Customer Service Bot</h3>
-              <p className="text-gray-400 mb-6">Automated customer support that handles issues and questions 24/7</p>
-              <div className="space-y-2">
-                <div className="flex justify-between">
-                  <span>Basic Plan</span>
-                  <span className="text-[#00f2fe]">€500 one-time</span>
+          
+          {/* Chatbots Category */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-semibold mb-8 text-[#00f2fe] text-glow">Chatbots</h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
+                <MessageSquare className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-2xl font-semibold mb-4 text-glow">Customer Service Bot</h3>
+                <p className="text-gray-400 mb-6">Automated customer support that handles issues and questions 24/7</p>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>Basic Plan</span>
+                    <span className="text-[#00f2fe]">€500 one-time</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Monthly Plan</span>
+                    <span className="text-[#00f2fe]">€100/month</span>
+                  </div>
                 </div>
-                <div className="flex justify-between">
-                  <span>Monthly Plan</span>
-                  <span className="text-[#00f2fe]">€100/month</span>
+              </div>
+              
+              <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
+                <Users className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-2xl font-semibold mb-4 text-glow">Lead Generation Bot</h3>
+                <p className="text-gray-400 mb-6">Convert prospects into customers with AI-powered lead generation</p>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>Basic Plan</span>
+                    <span className="text-[#00f2fe]">€500 one-time</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Monthly Plan</span>
+                    <span className="text-[#00f2fe]">€100/month</span>
+                  </div>
                 </div>
               </div>
             </div>
-            
-            <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
-              <Users className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
-              <h3 className="text-2xl font-semibold mb-4 text-glow">Lead Generation Bot</h3>
-              <p className="text-gray-400 mb-6">Convert prospects into customers with AI-powered lead generation</p>
-              <div className="space-y-2">
-                <div className="flex justify-between">
-                  <span>Basic Plan</span>
-                  <span className="text-[#00f2fe]">€500 one-time</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Monthly Plan</span>
-                  <span className="text-[#00f2fe]">€100/month</span>
-                </div>
-              </div>
-            </div>
+          </div>
 
-            <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
+          {/* Content Creation Category */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-semibold mb-8 text-[#00f2fe] text-glow">Content Creation</h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
+                <PenTool className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-2xl font-semibold mb-4 text-glow">AI Content Writer</h3>
+                <p className="text-gray-400 mb-6">Generate high-quality, SEO-optimized content for your business</p>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>Basic Plan</span>
+                    <span className="text-[#00f2fe]">€300/month</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Pro Plan</span>
+                    <span className="text-[#00f2fe]">€500/month</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
+                <FileText className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-2xl font-semibold mb-4 text-glow">Social Media Manager</h3>
+                <p className="text-gray-400 mb-6">AI-powered social media content creation and scheduling</p>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>Basic Plan</span>
+                    <span className="text-[#00f2fe]">€200/month</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Pro Plan</span>
+                    <span className="text-[#00f2fe]">€400/month</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Workflow Automation Category */}
+          <div className="mb-16">
+            <h3 className="text-2xl font-semibold mb-8 text-[#00f2fe] text-glow">Workflow Automation</h3>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
+                <Workflow className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-2xl font-semibold mb-4 text-glow">Process Automation</h3>
+                <p className="text-gray-400 mb-6">Streamline your business processes with intelligent automation</p>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>Basic Plan</span>
+                    <span className="text-[#00f2fe]">€1000 one-time</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Monthly Plan</span>
+                    <span className="text-[#00f2fe]">€200/month</span>
+                  </div>
+                </div>
+              </div>
+              
+              <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
+                <CircuitBoard className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-2xl font-semibold mb-4 text-glow">Integration Solutions</h3>
+                <p className="text-gray-400 mb-6">Connect your tools and automate data flow between systems</p>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>Basic Plan</span>
+                    <span className="text-[#00f2fe]">€800 one-time</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Monthly Plan</span>
+                    <span className="text-[#00f2fe]">€150/month</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Custom Solutions */}
+          <div className="mt-12">
+            <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow max-w-2xl mx-auto">
               <Bot className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
-              <h3 className="text-2xl font-semibold mb-4 text-glow">Custom Bot</h3>
-              <p className="text-gray-400 mb-6">Tailored AI solutions designed specifically for your business needs</p>
+              <h3 className="text-2xl font-semibold mb-4 text-glow">Custom Solutions</h3>
+              <p className="text-gray-400 mb-6">Need something specific? We'll create a custom AI solution tailored to your unique business requirements</p>
               <div className="mt-4">
                 <button className="w-full bg-gradient-to-r from-[#00f2fe] to-[#00d2de] text-black px-6 py-2 rounded-full hover:opacity-90 transition-opacity font-semibold glow">
                   Contact for Quote
@@ -153,7 +237,7 @@ function App() {
         </div>
       </section>
 
-            {/* Marketing Plan Banner */}
+      {/* Marketing Plan Banner */}
       <div className="bg-[#00f2fe]/10 py-4 border-y border-[#00f2fe]/20">
         <div className="container mx-auto px-6">
           <div className="flex items-center justify-center gap-4 text-center">
