@@ -184,7 +184,7 @@ function App() {
               <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
                 <Youtube className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
                 <h3 className="text-2xl font-semibold mb-4 text-glow">YouTube Package</h3>
-                <p className="text-gray-400 mb-6">Full-service YouTube plan including scripting, video promotion across platforms, analytics, planning and MORE</p>
+                <p className="text-gray-400 mb-6">Full-service YouTube plan including scripting, video promotion across platforms, analytics, planning and more</p>
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span>Basic Plan</span>
