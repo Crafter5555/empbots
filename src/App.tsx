@@ -129,8 +129,8 @@ function App() {
               
               <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
                 <Users className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
-                <h3 className="text-2xl font-semibold mb-4 text-glow">Lead Generation Bot + Appointment Setter</h3>
-                <p className="text-gray-400 mb-6">Find prospects and automaticlly book appointments with AI-powered lead generation</p>
+                <h3 className="text-2xl font-semibold mb-4 text-glow">Lead Generation + Appointment Setter Bot</h3>
+                <p className="text-gray-400 mb-6">Find prospects and automatically book appointments with AI-powered lead generation</p>
                 <div className="space-y-2">
                   <div className="flex justify-between">
                     <span>Basic Plan</span>
