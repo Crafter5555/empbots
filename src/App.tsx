@@ -1,4 +1,4 @@
-import { Bot, CircuitBoard, MessageSquare, Users, ChevronRight, Clock, Shield, Sparkles, FileText, NotebookPen, CheckCircle, Gem, Workflow, PenTool } from 'lucide-react';
+import { Bot, CircuitBoard, MessageSquare, Users, ChevronRight, Clock, Shield, Sparkles, FileText, NotebookPen, CheckCircle, Gem, Workflow, PenTool, Youtube } from 'lucide-react';
 
 function App() {
   return (
@@ -148,7 +148,7 @@ function App() {
           {/* Content Creation Category */}
           <div className="mb-16">
             <h3 className="text-2xl font-semibold mb-8 text-[#00f2fe] text-glow">Content Creation</h3>
-            <div className="grid md:grid-cols-2 gap-8">
+            <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
                 <PenTool className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
                 <h3 className="text-2xl font-semibold mb-4 text-glow">AI Content Writer</h3>
@@ -177,6 +177,22 @@ function App() {
                   <div className="flex justify-between">
                     <span>Pro Plan</span>
                     <span className="text-[#00f2fe]">€400/month</span>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-gray-900/50 p-8 rounded-2xl border border-gray-800 hover:border-[#00f2fe]/30 transition-all duration-300 group hover-glow">
+                <Youtube className="w-12 h-12 text-[#00f2fe] mb-4 group-hover:scale-110 transition-transform duration-300" />
+                <h3 className="text-2xl font-semibold mb-4 text-glow">YouTube Package</h3>
+                <p className="text-gray-400 mb-6">Full-service YouTube content creation with AI-powered scripting and optimization</p>
+                <div className="space-y-2">
+                  <div className="flex justify-between">
+                    <span>Basic Plan</span>
+                    <span className="text-[#00f2fe]">€800/month</span>
+                  </div>
+                  <div className="flex justify-between">
+                    <span>Pro Plan</span>
+                    <span className="text-[#00f2fe]">€1500/month</span>
                   </div>
                 </div>
               </div>
